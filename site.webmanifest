@@ -1,0 +1,13 @@
+{
+    "name": "Ordre de Veiel - Deckbuilding Tactique Randomizer",
+    "short_name": "ODV - DBT Random",
+    "background_color": "black",
+    "description": "Permet de générer une configuration alétoire de partie pour le jeu de société Ordre de Veiel - Deckbuilding Tactique de PARIA",
+    "orientation": "portrait-primary",
+    "start_url": "./",
+    "display": "fullscreen",
+    "icons": [
+        {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
+        {"src":"/android-chrome-256x256.png","sizes":"256x256","type":"image/png"}
+    ]
+}

@@ -1,0 +1,73 @@
+/*-----------------  FONTS  -----------------*/
+@font-face {
+    font-family: "Ancient Medium";
+    src: url("font/Ancient Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "White Storm";
+    src: url("font/White Storm.otf") format("truetype");
+}
+
+/*-----------------  Base  -----------------*/
+html {
+    background-image: url('img/background_black.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(44, 44, 44, 0.5);
+    font-family: "White Storm", sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: "Ancient Medium", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 50px;
+    color: rgb(230, 0, 0);
+    text-align: center;
+}
+
+footer {
+    display: inline;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    line-height: 10px;
+}
+
+/*-----------------  Styling Start  -----------------*/
+.introduction {
+    background-color: rgba(255, 0, 0, 0.4);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    counter-reset: section;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+
+canvas {
+    list-style-type: none;
+    counter-reset: section;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
