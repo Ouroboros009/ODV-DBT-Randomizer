@@ -31,6 +31,15 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: "Ancient Medium", sans-serif;
+    background-color: rgba(20, 180, 225, 0.5);
+    padding: 5px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
 footer {
     display: inline;
     font-size: 25px;
